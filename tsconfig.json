@@ -3,8 +3,12 @@
     "target": "esnext",
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "module": "commonjs",
+    "module": "ES2022",
     "rootDir": "./src",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "lib": ["ES2020"],
+    "moduleDetection": "force",
+    "strictNullChecks": true
   }
 }
