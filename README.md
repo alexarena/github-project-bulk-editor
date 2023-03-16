@@ -1,15 +1,9 @@
-# Interval TypeScript Starter
+## GitHub project bulk editor
 
-Created with
-[create-interval-app](https://github.com/interval/create-interval-app).
+This tool allows you to bulk edit fields on items in GitHub projects. It's built using TypeScript and [Interval](https://interval.com).
 
-## Typing
+To use the tool:
+- Create a `.env` file with `INTERVAL_API_KEY` and `GITHUB_TOKEN` specified
+- Run `npm install` to install dependencies
+- Run `npm run dev` to run in dev mode or `npm run build && npm run start` to build and run for production.
 
-The Interval SDK is written in TypeScript and should have rich type hints and
-inference. If you experience issues with IDE support, please ensure your editor
-is using the correct version of TypeScript that is installed in the workspace.
-If you are using Visual Studio Code, please try
-[using the workspace version of TypeScript](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-the-workspace-version-of-typescript).
-Many editors should do this automatically.
-
-If that doesn't help, please let us know!
